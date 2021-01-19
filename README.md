@@ -1,6 +1,6 @@
 Restrict Magento 2 Payment Method
 =============
-###Requirements
+##Requirements
 * Magento >= 2.3
 
 ## Description
@@ -44,7 +44,7 @@ bin/magento cache:clean
 bin/magento maintenance:disable
 ```
 
-###Configuration
+##Configuration
 1.Open the Following File Customization/RestrictPMethod/Observer/Payment/MethodIsActive.php
 2.Enter the Category ID you need at the following line.
 ```php
