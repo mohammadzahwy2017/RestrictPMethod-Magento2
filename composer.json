@@ -1,0 +1,22 @@
+{
+    "name": "customization/module-restrict-payment-methods",
+    "description": "Disable specific payment methods on checkout page when cart have at least one product from specific category.",
+    "type": "magento2-module",
+    "license": "",
+    "authors": [
+        {
+            "name": "Mohammad Zahwi",
+            "email": "mohammadzahwy2017@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Customization\\RestrictPMethod\\": ""
+        }
+    }
+}
